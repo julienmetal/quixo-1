@@ -12,13 +12,13 @@ Quixo::Quixo(QWidget *parent) :
     QGraphicsScene * ma_scene;
     ma_scene = new QGraphicsScene();
     QGraphicsPixmapItem * mon_item;
-    QPixmap * mon_image = new QPixmap(":/croix.png");
+    QPixmap * mon_image = new QPixmap(":/neutre.png");
     for(int j=0; j<5; ++j) {
         for(int i=0; i<5; ++i) {
             mon_item = new QGraphicsPixmapItem();
             mon_item->setPixmap(* mon_image);
-            mon_item->setPos(i*150,j*150);
-            mon_item->setScale(3.0);
+            mon_item->setPos(i*50,j*50);
+            mon_item->setScale(1.0);
             ma_scene->addItem(mon_item);
 
         }
