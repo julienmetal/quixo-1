@@ -13,8 +13,15 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        quixo.cpp
+        quixo.cpp \
+    piece.cpp \
+    plateau.cpp
 
-HEADERS  += quixo.h
+HEADERS  += quixo.h \
+    piece.h \
+    plateau.h
 
 FORMS    += quixo.ui
+
+RESOURCES += \
+    images.qrc
