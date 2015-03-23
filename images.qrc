@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>1.png</file>
-        <file>2.png</file>
-        <file>3.png</file>
+        <file>neutre.png</file>
+        <file>rond.png</file>
+        <file>croix.png</file>
     </qresource>
 </RCC>
